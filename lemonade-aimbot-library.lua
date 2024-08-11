@@ -4,8 +4,8 @@ local cam = workspace.CurrentCamera
 local rs = game:GetService("RunService")
 local ws = game:GetService("Workspace")
 
-getgenv().teamcheck
-getgenv().wallcheck
+getgenv().teamcheck = true
+getgenv().wallcheck = true
 
 local function getclosest()
     local closest, dist = nil, math.huge
